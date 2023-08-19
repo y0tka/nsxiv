@@ -188,6 +188,7 @@ static const button_t buttons_img[] = {
 	{ 0,            3,                g_switch_mode,        None },
 	{ 0,            4,                g_zoom,               +1 },
 	{ 0,            5,                g_zoom,               -1 },
+	{ 0,  			8,                g_switch_mode,        None },
 };
 
 /* mouse button mappings for thumbnail mode: */
@@ -199,6 +200,7 @@ static const button_t buttons_tns[] = {
 	{ 0,            5,                t_scroll,             DIR_DOWN },
 	{ ControlMask,  4,                g_scroll_screen,      DIR_UP },
 	{ ControlMask,  5,                g_scroll_screen,      DIR_DOWN },
+	{ 0,  			8,                g_switch_mode,        None },
 };
 
 /* true means NAV_WIDTH is relative (33%), false means absolute (33 pixels) */
