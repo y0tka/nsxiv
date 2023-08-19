@@ -115,19 +115,19 @@ dependencies.
 
 Installing nsxiv:
 
-#make install
+    # make install
 
 Installing desktop entry:
 
-#make install - desktop
+    # make install-desktop
 
 Installing icons:
 
-#make install - icon
+    # make install-icon
 
 Installing all of the above:
 
-#make install - all
+    # make install-all
 
 Please note, that these requires root privileges.
 By default, nsxiv is installed using the prefix `/usr/local`, so the full path
